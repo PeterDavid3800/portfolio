@@ -13,7 +13,7 @@ const About = () => {
 
           {/* Profile Image */}
           <div className="about-image">
-            <img src="/images/user.png" alt="Peter David Aringo" />
+            <img src={process.env.PUBLIC_URL + "/images/user.png"} alt="Peter David Aringo" />
           </div>
 
 
