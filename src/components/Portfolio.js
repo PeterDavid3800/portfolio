@@ -12,7 +12,7 @@ const Portfolio = () => {
 
           {/* Project 1 */}
           <div className="work">
-            <img src="/images/work1.png" alt="Savify Project" />
+            <img src={process.env.PUBLIC_URL +"/images/work1.png"} alt="Savify Project" />
 
             <div className="layer">
               <h3>Savify</h3>
@@ -29,7 +29,7 @@ const Portfolio = () => {
 
           {/* Project 2 */}
           <div className="work">
-            <img src="/images/work2.jpg" alt="Other Projects" />
+            <img src={process.env.PUBLIC_URL +"/images/work2.jpg"} alt="Other Projects" />
 
             <div className="layer">
               <h3>Other Projects</h3>

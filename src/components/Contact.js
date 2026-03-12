@@ -23,7 +23,7 @@ const Contact = () => {
             </div>
 
             <a
-              href="/images/PeterDavidAringoCV.pdf"
+              href= {process.env.PUBLIC_URL +"/images/PeterDavidAringoCV.pdf"}
               download
               className="btn"
             >
